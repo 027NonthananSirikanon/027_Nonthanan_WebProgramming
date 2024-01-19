@@ -19,10 +19,10 @@ body {
   background-color: #ffb703;
 }
 .img-size{
-  width: 30%;
+  width: 50%;
 }
 .imf{
-  width: 80%;
+  width: auto;
   height: 50%;
 }
 .iconStyle {
@@ -39,4 +39,7 @@ body {
 }
 .foot{
   background-color: #1982c4 ;
+}
+.conf{
+  color: gray;
 }
