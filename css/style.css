@@ -37,9 +37,18 @@ body {
 .has{
   color: #1982c4;
 }
-.foot{
-  background-color: #1982c4 ;
+.footer{
+  color: white;
+}
+.bg-light {
+  background-color: #1982c4 !important;
 }
 .conf{
   color: gray;
+}
+.text-body-secondary{
+  color:white !important;
+}
+.logo{
+  color:white;
 }
