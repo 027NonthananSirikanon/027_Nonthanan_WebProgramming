@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        /* .container-fluid{
+          border: 1px solid black;
+          flex-wrap: nowrap;
+        }
+        .secondMenu li{
+          display: inline;
+          list-style: none;
+        }
+        .secondMenu a{
+          text-decoration: none;
+        }
+        @media (max-width:768px ) { 
+              .container{
+                
+              }
+          } */
+          
+          .secondMenu{
+            border: 1px solid black;
+          }
+          span{
+            color: red;
+          }
+
+         
+          @media (min-width: 1200px ) and (max-width: 768px) {  
+            .secondMenu  {
+                overflow-x: hidden;
+                margin: 0 10px;
+            }
+          }
+          @media (max-width: 768px) { 
+            .secondMenu{
+                display: none;
+            }
+          }
+      </style>
+</head>
+<body>
+
+    <div class="container  container-xl secondMenu">
+    <ul class="nav   justify-content-center   ">
+        <li class="nav-item ">
+          <a class="nav-link "  href="#"><span class="">PODCAST</span>: Tug of war</a>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link" href="#"><span class="">UKRAINE</span>: In photos</a>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link" href="#">Help Ukraine</a>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link " href="#">Gerd Müller</a>
+        </li>
+        <li class="nav-item  ">
+            <a class="nav-link " href="#">Melania Trump</a>
+          </li>
+      </ul>
+    </div>
+    
+
+
+    <!-- <div class="container-fluid ">
+        <div class="row text-center">
+          <ul class="secondMenu pt-3">
+            <li class="">
+              <a class="" href="#"><span class="">COVID-19</span>: Vaccination tracker</a>
+            </li>
+            <li class="">
+              <a class="" href="#"><span class="">TRENDING</span>: Most luxurious airport</a>
+            </li>
+            <li class="">
+              <a class="" href="#">Mysterious Chinese app </a>
+            </li>
+            <li class="">
+              <a class="" href="#">Gerd Müller</a>
+            </li>
+            <li class="">
+              <a class="" href="#">Melania Trump's White House Rose Garden</a>
+            </li>
+          </ul>
+        </div>
+        </div> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
